@@ -22,3 +22,6 @@ Besides the assembled PCBs, you will need to load firmware to the main microcont
 Assembling the PCBs will require that you are comfortable with surface-mount soldering. It's not nearly as hard as it looks. You'll need solder paste and a hot air rework station though. If you don't have these, check if there's a hackerspace near you. They probably will!
 
 # BOM (TODO)
+
+# Images of Completed Board (small version)
+![Photo of the sompleted small version of the game](https://raw.githubusercontent.com/seanboyce//Calculus-the-game/refs/heads/main/calculus_small/calculus_small_built.JPG)
