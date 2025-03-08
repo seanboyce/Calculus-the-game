@@ -23,5 +23,5 @@ Assembling the PCBs will require that you are comfortable with surface-mount sol
 
 # BOM (TODO)
 
-# Images of Completed Board (small version)
+# Images of Completed Board (cheap version)
 ![Photo of the sompleted small version of the game](https://raw.githubusercontent.com/seanboyce//Calculus-the-game/refs/heads/main/calculus_small/calculus_small_built.JPG)
