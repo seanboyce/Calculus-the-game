@@ -43,5 +43,5 @@ Assembling the PCBs will require that you are comfortable with surface-mount sol
 ![Photo of the completed full version of the game](https://raw.githubusercontent.com/seanboyce//Calculus-the-game/refs/heads/main/calculus_full/fullboard_power.JPG)
 
 # Image of Completed Board (cheap version)
-![Photo of the completed small version of the game](https://raw.githubusercontent.com/seanboyce//Calculus-the-game/refs/heads/main/calculus_small/calculus_small_built.JPG)
+![Photo of the completed small version of the game](https://raw.githubusercontent.com/seanboyce//Calculus-the-game/refs/heads/main/calculus_small/calculus_small.JPG)
 
