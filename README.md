@@ -23,20 +23,16 @@ It's expected that you power the game via a USB battery bank. Like the kind you 
 The cheap version of the game can use more or less any RP2040 based board. The original Pi Pico works fine. The full version specifically requires the XIAO RP2040 -- it's smaller and I needed the space.
 
 ## Structural
-The smaller board is intended to be attached above a small project box or similar. This serves the dual purpose of housing a microcontroller, and fixing the 3 PCBs firmly in place. The larger board has all those electronics integrated, and is meant to rest on a table. I've left holes in the PCB in case you want to bolt it to something, but it's expected you use rubber feet held in place by 3mm bolts/nuts, like the type used in furniture. I find 10mm is a good height, you will need at least 8mm.
+The boards for the cheap version are intended to be attached above a small project box or similar. This serves the dual purpose of housing a microcontroller, and fixing the 3 PCBs firmly in place. The larger board has all those electronics integrated, and is meant to rest on a table. I've left holes in the PCB in case you want to bolt it to something, but it's expected you use rubber feet held in place by 3mm bolts/nuts, like the type used in furniture. I find 10mm is a good height, you will need at least 8mm.
 
 ## Game Pieces
 The smaller board requires custom pieces -- hex spacers, bolts, and nuts colored with a permanent marker work fine. The full size board can be played with pieces from a Catan set, or you can make your own.
 
 # Firmware
-
 Besides the assembled PCBs, you will need to load firmware to the main microcontroller (an RP2040). This is pretty easy and can be done over USB. The firmware is heavily commented -- this is so you can make 'house' modifications to the game mechanics, to change the rules if you want. You could even design a completely new game!
 
 # Notes on Assembly
-
 Assembling the PCBs will require that you are comfortable with surface-mount soldering. It's not nearly as hard as it looks. You'll need solder paste and a hot air rework station though. If you don't have these, check if there's a hackerspace near you. They probably will! Right now it makes use of 0402 components. I'll redesign for 0603 or similar at some point -- this will be easier for beginners to solder.
-
-# BOM (TODO)
 
 
 # Image of Completed Board (full version)
