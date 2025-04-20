@@ -8,12 +8,22 @@ The name of the game is Calculus, in the sense of a "stone, or concretion of mat
 # Status
 There are two versions of this game:
 
-1. The cheap version (complete) -- this version only has one PCB, although you will need 3 units to build the game. It is very cheap to manufacture, but a bit small and cramped to play. It is missing a little polish overall. Notably, trade ports are not electronic (I use magnetic discs), the landing zone (unproductive tile) is limited to being in the center of the board, and there's no MCU on the board itself -- it needs to be added externally and wired in to the inputs. You'll also need to hack in a button. Still, it's very cheap to make and perfectly cromulent.
-2. The full-size version (boards arrived and assembled, firmware in progress) -- this one is *much larger* (more than double the size). It uses two PCBs: a large one (you will need 3), and a small one (you will need 1). The small PCB has space for an MCU, making the final board much more self-contained. It is also an active game tile -- the landing zone (unproductive tile) can be randomized like other tiles. Trade ports are randomized and represented by RGB LEDs like resource tiles. There are also some cosmetic improvements like a proper button and nicer lines. One tradeoff is thst the firmware is a bit more convoluted to be able to control all those LEDs -- there are 388 (!) LEDs on the board when you count up all the RGB LEDs and two digit 8-segment displays.
+1. The cheap version -- this version only has one PCB, although you will need 3 units to build the game. It is very cheap to manufacture, but a bit small and cramped to play. It is missing a little polish overall. Notably, trade ports are not electronic (I use magnetic discs), the landing zone (unproductive tile) is limited to being in the center of the board, and there's no MCU on the board itself -- it needs to be added externally and wired in to the inputs. You'll also need to hack in a button. Still, it's very cheap to make and perfectly cromulent.
+2. The full-size version -- this one is *much larger* (more than double the size). It uses two PCBs: a large one (you will need 3), and a small one (you will need 1). The small PCB has space for an MCU, making the final board much more self-contained. The small board goes in the center and is also an active game tile -- the landing zone (unproductive tile) can be randomized like other tiles because of this. Trade ports are randomized and represented by RGB LEDs like resource tiles (or off for 3:1). There are also some cosmetic improvements like a proper button and nicer lines. I've also substantially cleaned up the firmware to control all those LEDs -- there are 388 (!) LEDs on the board when you count up all the RGB LEDs and two digit 8-segment displays. 
 
-Other than noted above, both versions play the same. It's expected that you power the game via a USB battery bank of some sort. Like the kind you use to recharge phones. However, you can power it from any USB port or 5V source.
+Other than noted above, both versions play the same. 
 
-Additional differences: The smaller board is intended to be attached above a small project box or similar. This serves the dual purpose of housing a microcontroller, and fixing the 3 PCBs firmly in place. The larger board has all those electronics integrated, and is meant to rest on a table. I've left holes in the PCB in case you want to bolt it to something, but it is not necessary. The smaller board requires custom pieces -- hex spacers, bolts, and nuts colored with a permanent marker work fine. The full size board can be played with pieces from a Catan set, or you can make your own.
+## Power
+It's expected that you power the game via a USB battery bank. Like the kind you use to recharge phones. However, you can power it from any USB port or 5V source. Current consumption at 5v should be around 250mA for the cheap version, and a little higher for the full version (say 300mA)
+
+## CPU
+The cheap version of the game can use more or less any RP2040 based board. The original Pi Pico works fine. The full version specifically requires the XIAO RP2040 -- it's smaller and I needed the space.
+
+## Structural
+The smaller board is intended to be attached above a small project box or similar. This serves the dual purpose of housing a microcontroller, and fixing the 3 PCBs firmly in place. The larger board has all those electronics integrated, and is meant to rest on a table. I've left holes in the PCB in case you want to bolt it to something, but it's expected you use rubber feet held in place by 3mm bolts/nuts, like the type used in furniture. I find 10mm is a good height, you will need at least 8mm.
+
+## Game Pieces
+The smaller board requires custom pieces -- hex spacers, bolts, and nuts colored with a permanent marker work fine. The full size board can be played with pieces from a Catan set, or you can make your own.
 
 # Firmware
 
@@ -21,12 +31,12 @@ Besides the assembled PCBs, you will need to load firmware to the main microcont
 
 # Notes on Assembly
 
-Assembling the PCBs will require that you are comfortable with surface-mount soldering. It's not nearly as hard as it looks. You'll need solder paste and a hot air rework station though. If you don't have these, check if there's a hackerspace near you. They probably will! Right now it makes use of 0402 components. I'll redesign for 0603 or similar soon -- this will be easier for beginners to solder.
+Assembling the PCBs will require that you are comfortable with surface-mount soldering. It's not nearly as hard as it looks. You'll need solder paste and a hot air rework station though. If you don't have these, check if there's a hackerspace near you. They probably will! Right now it makes use of 0402 components. I'll redesign for 0603 or similar at some point -- this will be easier for beginners to solder.
 
 # BOM (TODO)
 
 
-# Image of Assembled Board (full version)
+# Image of Completed Board (full version)
 ![Photo of the completed full version of the game](https://raw.githubusercontent.com/seanboyce//Calculus-the-game/refs/heads/main/calculus_full/fullboard_power.JPG)
 
 # Image of Completed Board (cheap version)
