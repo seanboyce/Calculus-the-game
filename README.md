@@ -1,4 +1,4 @@
-# Calculus-the-game
+# Introduction
 An electronic strategy board game about mining an asteroid and barter. It is also fully compatible with Settlers of Catan. So if you already own that game, you can play it using this board if you wish (using the cards and pieces from the original). The holders of the Catan copyright also generously allow you to make one (1) handmade copy of their game for personal use. A practical thing to do is buy their game, and use the included pieces and cards (although please note the pieces will only physically fit the full-size version, see below). For more information on IP, please visit this link: https://www.catan.com/guidelines-dealing-intellectual-property-catan
 
 Out of respect for their IP (and also for fun), my own game will be sci-fi themed and will not use or refer to their IP beyond this point. 
