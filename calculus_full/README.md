@@ -9,3 +9,5 @@ You may remove it if you wish. Just open up the PCB in KiCAD, select the text, a
 ## KiCAD files
 
 There are some custom footprints I think? Not sure how that gets handled. Let me know if anything outright breaks.
+
+The routing is still pretty YOLO in this version (although less bad than the cheap version), feel free to clean it up. I tried to mostly keep traces off the top of the board so it looks clean.
