@@ -32,7 +32,7 @@ The cheap requires custom pieces -- hex spacers, bolts, and nuts colored with a 
 Besides the assembled PCBs, you will need to load firmware to the main microcontroller (an RP2040). This is pretty easy and can be done over USB. The firmware is heavily commented -- this is so you can make 'house' modifications to the game mechanics, to change the rules if you want. You could even design a completely new game!
 
 # Notes on Assembly
-Assembling the PCBs will require that you are comfortable with surface-mount soldering. It's not nearly as hard as it looks. You'll need solder paste and a hot air rework station though. If you don't have these, check if there's a hackerspace near you. They probably will! Right now it makes use of 0402 components. I'll redesign for 0603 or similar at some point -- this will be easier for beginners to solder.
+Assembling the PCBs will require that you are comfortable with surface-mount soldering. It's not nearly as hard as it looks. You'll need solder paste and a hot air rework station though. If you don't have these, check if there's a hackerspace near you. They probably will! The default designs use 0402 (1005 metric) components. If you want something easier to solder, look for the 0603 version of the kicad and production files in the fullsize board directory. 
 
 # Having Trouble? Something Confusing?
 Raise an issue here on Github. I check in from time to time and will likely respond.
