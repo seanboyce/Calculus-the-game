@@ -4,10 +4,12 @@ An electronic strategy board game about mining an asteroid and barter. It is als
 Out of respect for their IP (and also for fun), my own game will be sci-fi themed and will not use or refer to their IP beyond this point. 
 
 ## Sci-Fi theme?
-The name of the game is Calculus, in the sense of a "stone, or concretion of material". In this case, an asteroid in deep space! You are one of up to four corporations that are racing to exploit this valuable asteroid. The corporation that reaches a certain level of development (10 infrastructure points) first will own this tiny piece of the sky. This is the object of the game. Besides the four corporations, a mysterious hacker has made their home here, and is bound to interfere with your plans...
+The name of the game is Calculus, in the sense of a "stone, or concretion of material". In this case, an asteroid in deep space! You are one of up to four corporations that are racing to exploit this valuable asteroid. The corporation that reaches a certain level of development (10 Infrastructure Points) first will own this tiny piece of the sky. This is the object of the game. Besides the four corporations, a mysterious hacker has made their home here, and is bound to interfere with your plans...
+
+(for more information, read the short, bewildering manual)
 
 # Status
-The electronics and firmware are in a finished state. Game and reference cards... exist and are usable, but look pretty bad. I'm writing the manual. Afterward, I may design game pieces. If you want to help, please redesign my print materials.
+The electronics and firmware are in a finished state. Game and reference cards... exist and are usable, but look pretty bad. The game manual exists, could use some nice figure or photos. Afterward, I may design game pieces. If you want to help, please redesign my print materials. You are very likely better at this than I am.
 
 There are two versions of this game, both complete:
 
