@@ -3,4 +3,4 @@ These are the (optional) print materials for Calculus. Each indicates how many c
 
 ## Manual
 
-The manual is a bit of a special case. There's a .odt file if yo uwant to edit it, but I've also made an attempt to lay it out into A5 pages. This lets you print it as a saddle-stiched A5 booklet. The "imposed" version is ready-to-print (duplex on long edge). The other version assumes you'll handle the page imposing yourself.
+The manual is a bit of a special case. There's a .odt file if you want to edit it, but I've also made an attempt to lay it out into A5 pages. This lets you print it as a saddle-stiched A5 booklet. The "imposed" version is ready-to-print (duplex on long edge). The other version assumes you'll handle the page imposing yourself.
