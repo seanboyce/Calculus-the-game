@@ -9,7 +9,7 @@ The name of the game is Calculus, in the sense of a "stone, or concretion of mat
 (for more information, read the short, bewildering manual)
 
 # Status
-The electronics and firmware are in a finished state. Game and reference cards... exist and are usable, but look pretty bad. The game manual exists, could use some nice figure or photos. Afterward, I may design game pieces. If you want to help, please redesign my print materials. You are very likely better at this than I am.
+The electronics and firmware are in a finished state. Game and reference cards exist and are usable, but the design is nothing special. The game manual is an A5 saddle-stitched booklet, available as a pre-imposed, print-ready document. If you want to help, please redesign my print materials. You are very likely better at this than I am.
 
 There are two versions of this game, both complete:
 
