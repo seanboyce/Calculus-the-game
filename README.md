@@ -36,6 +36,10 @@ The boards for the cheap version are intended to be attached above a small proje
 ## Game Pieces
 The cheap requires custom pieces -- hex spacers, bolts, and nuts colored with a permanent marker work fine. The full size board can be played with pieces from a Catan set, or you can make your own.
 
+I like the weight of metal game pieces -- so I dyed 25mm brass hex spacers as the 'tunnels', dyed M6 nuts as the 'mines', and add a ~13mm dyed M6 bolt to them to upgrade them to 'drills'.
+
+To dye these metal pieces, colored permanent marker worked really well.
+
 # Firmware
 Besides the assembled PCBs, you will need to load firmware to the main microcontroller (an RP2040). This is pretty easy and can be done over USB. The firmware is heavily commented -- this is so you can make 'house' modifications to the game mechanics, to change the rules if you want. You could even design a completely new game!
 
