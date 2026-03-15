@@ -31,7 +31,9 @@ Building your own rechargeable power supply, or powering it from a phone charger
 The cheap version of the game can use more or less any RP2040 based board. The original Pi Pico works fine. The full version specifically requires the XIAO RP2040 -- it's smaller and I needed the space.
 
 ## Structural
-The boards for the cheap version are intended to be attached above a small project box or similar. This serves the dual purpose of housing a microcontroller, and fixing the 3 PCBs firmly in place. The larger board has all those electronics integrated, and is meant to rest on a table. I've left holes in the PCB in case you want to bolt it to something, but it's expected you use rubber feet held in place by 3mm bolts/nuts, like the type used in furniture. I find 10mm is a good height, you will need at least 8mm.
+The boards for the cheap version are intended to be attached above a small project box or similar. This serves the dual purpose of housing a microcontroller, and fixing the 3 PCBs firmly in place. The larger board has all those electronics integrated, and is meant to be bolted to something rigid. I use a circular bamboo serving tray, this leaves a hollow space under the board suitable for storing pieces, the power supply, and the manual.
+
+You can also just add rubber feet to the PCB, the type that are used for furniture and attach on via M3 bolts. This will let you rest it on most flat sufaces. These should be at least 8mm high for proper clearance, I found 10mm more practical. The benefit of this approach is that you can 'stack' the 3 big PCBs, and store the game in a smaller box. On the other hand, it offers no strain relief on the cabling (which can get a bit tangled). I found that bolting it to a rigid surface was much more practical.
 
 ## Game Pieces
 The cheap requires custom pieces -- hex spacers, bolts, and nuts colored with a permanent marker work fine. The full size board can be played with pieces from a Catan set, or you can make your own.
