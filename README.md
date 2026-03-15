@@ -19,7 +19,13 @@ There are two versions of this game, both complete:
 Other than noted above, both versions play the same. 
 
 ## Power
-It's expected that you power the game via a USB battery bank. Like the kind you use to recharge phones. However, you can power it from any USB port or 5V source. Current consumption at 5v should be around 250mA for the cheap version, and a little higher for the full version (say 300mA)
+It's expected that you power the game via a USB battery bank. Like the kind you use to recharge phones. However, you can power it from any USB port or 5V source. Current consumption at 5v should be around 250mA for the cheap version, and a little higher for the full version (say 300mA).
+
+Note that some power banks will automatically turn off if the power draw is too low. When pressing the 'next turn' button, the power draw can dip below this threshold, causing the game to turn off and lose it's state! To avoid this, some power banks have a 'low current mode' that disables this feature -- check your powerbank manual.
+
+An alternative solution is to put a resistor across power and ground to increase the current draw. A 100 ohm resistor was sufficient in my case. This adds 50mA to the current consumption, but still keeps it low enough that my power bank will run the game for 30 hours or so per charge.
+
+Building your own rechargeable power supply, or powering it from a phone charger instead of a battery are also reasonable solutions!
 
 ## CPU
 The cheap version of the game can use more or less any RP2040 based board. The original Pi Pico works fine. The full version specifically requires the XIAO RP2040 -- it's smaller and I needed the space.
